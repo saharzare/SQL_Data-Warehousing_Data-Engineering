@@ -7,6 +7,32 @@ Pull & Full Extraction >> with the technique of parsing files to the datawarehou
 🔗https://datawithbaraa.substack.com/p/access-to-course-materials
 ## Which tools important to have?
 SSMS,Notion,drawio
+
+## 📊 Project Requirements: 
+### 1- Building the Data Warehouse (Data Engineering)
+### 🎯 Objective
+Design and implement a modern data warehouse using SQL Server to consolidate and prepare sales data for analytical reporting and data-driven decision-making.
+
+📋 Specifications
+Data Source: Integrate data from two distinct systems: an ERP and a CRM, both provided in CSV format.
+Data Quality: Perform data cleansing and standardization to resolve inconsistencies, missing values, and quality issues before loading.
+Integration & Modeling: Merge the ERP and CRM data into a single, unified data model optimized for analytical queries (e.g., star or snowflake schema).
+Ensure the model is intuitive and accessible for both technical and non-technical users.
+Scope: Focus exclusively on the most recent dataset.
+No historization or slowly changing dimension (SCD) tracking is required.
+Documentation: Deliver comprehensive documentation of the data model and ETL process.
+Ensure clarity for both business stakeholders and analytics teams to facilitate self-service BI and reporting.
+### 2- BI: Analytics & Reporting (Data Analysis)
+### 🎯 Objective
+Develop SQL-based analytics to deliver detailed insights into:
+
+Customer Behavior
+Product Performance
+Sales Trends
+
+We have to specify which approach we want to follow, in our project we choose data modeluian architecture:
+![image](https://github.com/user-attachments/assets/7a796eb8-82f5-45a5-ae15-17fc7d335020)
+
 ## What is Datawarehouse?
 A Data Warehouse (DW) is used to store, organize, and analyze large volumes of data from multiple sources. It’s optimized for analytics, reporting, and business intelligence (BI) , not for handling day-to-day operations like a transactional database (OLTP).
 ### Key Reasons We Use a Data Warehouse
