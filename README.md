@@ -19,3 +19,22 @@ ETL/ELT tools: dbt, Apache Airflow, Fivetran, Informatica
 Data Warehouses: Snowflake, Amazon Redshift, Google BigQuery, Azure Synapse, PostgreSQL (for smaller setups)
 
 SQL: Core language for querying and transforming DW data
+## What is ETL?
+ETL stands for Extract, Transform, Load — it's a core process in data warehousing used to move data from various sources into a centralized data warehouse.
+
+### Extract
+Pull data from different sources — databases (like MySQL, Oracle), files (CSV, JSON), APIs, CRMs, etc.
+Example: Pull daily sales records from a POS system.
+
+### Transform
+Clean, filter, join, or reformat the data.
+Common steps:
+Fix missing or incorrect values
+Convert data types (e.g., text to date)
+Join multiple datasets
+Aggregate or summarize data
+Example: Convert "2025-05-07" to "May 2025" or calculate total monthly sales.
+
+### Load
+Store the transformed data into the data warehouse in a structured format.
+This could mean loading into tables designed for analytics (like star or snowflake schemas).
