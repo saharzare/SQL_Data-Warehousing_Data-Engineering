@@ -1,6 +1,8 @@
 # SQL_Data-Warehousing_Data-Engineering
 ### The techniques and types in our project:
 Pull & Full Extraction >> with the technique of parsing files to the datawarehouse >> Data Transformation with all  >> Batch & Full(truncate and insert) Load and historization of SCD1
+## download the materials
+🔗https://datawithbaraa.substack.com
 
 ## What is Datawarehouse?
 A Data Warehouse (DW) is used to store, organize, and analyze large volumes of data from multiple sources. It’s optimized for analytics, reporting, and business intelligence (BI) , not for handling day-to-day operations like a transactional database (OLTP).
