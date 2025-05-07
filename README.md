@@ -38,3 +38,45 @@ Example: Convert "2025-05-07" to "May 2025" or calculate total monthly sales.
 ### Load
 Store the transformed data into the data warehouse in a structured format.
 This could mean loading into tables designed for analytics (like star or snowflake schemas).
+
+## 🟡 Extract Techniques
+Goal: Pull data from various source systems.
+
+Methods:
+Full Extraction: Load all data every time (simple but slow).
+Incremental Extraction: Only extract new or changed data using:Timestamps (e.g., last_updated > '2025-05-06'), Change Data Capture (CDC) from logs or triggers, Versioning or surrogate keys
+
+Tools:
+SQL queries, APIs (REST/GraphQL), File ingestion (CSV, Excel, JSON, XML), ETL tools: Fivetran, Talend, Apache NiFi
+
+## 🟠 Transform Techniques
+Goal: Clean, format, and reshape the data.
+
+Methods:
+Data Cleaning: Remove duplicates, fix nulls, correct types
+Standardization: Rename columns, unify date formats, currency, etc.
+Filtering: Remove irrelevant rows or outliers
+Joins/Merges: Combine datasets from different sources
+Aggregations: Sum, count, average, etc., for metrics
+Data Enrichment: Add calculated columns or lookup values
+
+Tools:
+SQL (CTEs, window functions), dbt (data build tool), Python (Pandas), Spark, Enterprise ETL tools (Informatica, SSIS)
+
+## 🔵 Load Techniques
+Goal: Push data into the data warehouse.
+
+Methods:
+Full Load: Truncate and reload everything (rare in big data), upsert, drop and create and insert
+Incremental Load: Insert only new/updated rows
+UPSERT (INSERT + UPDATE)
+MERGE statements and append
+
+Batch Load: Load data in scheduled batches (e.g., nightly)
+Streaming Load: Load real-time data continuously
+
+Tools:
+SQL (INSERT, MERGE, COPY, LOAD DATA), Snowflake, BigQuery, Redshift loaders, Apache Kafka (for streaming), Airflow (orchestrates ETL pipelines)
+### Slowly Changing Dimension(SCD):
+SCD 0(no historization: nothing should be changed at all)- SCD 1(overwrite: update the records with the new information by resources and overwriting the old values like upsert, but you are loosing the history)- SCD 2(historization: we insert new record for each changes from the sources and we are not delete or overwrite the old data)- SCD 3(
+
