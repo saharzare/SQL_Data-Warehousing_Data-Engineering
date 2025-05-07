@@ -1,8 +1,8 @@
 # SQL_Data-Warehousing_Data-Engineering
-A Data Warehouse (DW) is used to store, organize, and analyze large volumes of data from multiple sources. It’s optimized for analytics, reporting, and business intelligence (BI) — not for handling day-to-day operations like a transactional database (OLTP).
-## Key Reasons We Use a Data Warehouse
--- Centralized Data from Multiple Sources
-A DW integrates data from various systems — like ERP, CRM, APIs, flat files — into a single, consistent format.
+A Data Warehouse (DW) is used to store, organize, and analyze large volumes of data from multiple sources. It’s optimized for analytics, reporting, and business intelligence (BI) , not for handling day-to-day operations like a transactional database (OLTP).
+### Key Reasons We Use a Data Warehouse
+Centralized Data from Multiple Sources
+A DW integrates data from various systems , like ERP, CRM, APIs, flat files — into a single, consistent format.
 ### Designed for Fast Queries (OLAP)
 Data warehouses are optimized for read-heavy, analytical queries (e.g., trends, aggregations, dashboards), unlike OLTP systems which are optimized for write-heavy workloads.
 ### Historical Data Storage
