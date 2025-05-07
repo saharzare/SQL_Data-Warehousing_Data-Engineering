@@ -4,7 +4,9 @@ Pull & Full Extraction >> with the technique of parsing files to the datawarehou
 ## download the materials
 🔗https://datawithbaraa.substack.com
 🔗https://datawithbaraa.substack.com/p/build-a-data-warehouse-from-scratch
-
+🔗https://datawithbaraa.substack.com/p/access-to-course-materials
+## Which tools important to have?
+SSMS,Notion,drawio
 ## What is Datawarehouse?
 A Data Warehouse (DW) is used to store, organize, and analyze large volumes of data from multiple sources. It’s optimized for analytics, reporting, and business intelligence (BI) , not for handling day-to-day operations like a transactional database (OLTP).
 ### Key Reasons We Use a Data Warehouse
