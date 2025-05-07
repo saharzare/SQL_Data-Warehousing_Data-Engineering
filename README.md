@@ -78,5 +78,8 @@ Streaming Load: Load real-time data continuously
 Tools:
 SQL (INSERT, MERGE, COPY, LOAD DATA), Snowflake, BigQuery, Redshift loaders, Apache Kafka (for streaming), Airflow (orchestrates ETL pipelines)
 ### Slowly Changing Dimension(SCD):
-SCD 0(no historization: nothing should be changed at all)- SCD 1(overwrite: update the records with the new information by resources and overwriting the old values like upsert, but you are loosing the history)- SCD 2(historization: we insert new record for each changes from the sources and we are not delete or overwrite the old data)- SCD 3(
+SCD 0(no historization: nothing should be changed at all)
+SCD 1(overwrite: update the records with the new information by resources and overwriting the old values like upsert, but you are loosing the history)
+SCD 2(historization: we insert new record for each changes from the sources and we are not delete or overwrite the old data)
+SCD 3
 
