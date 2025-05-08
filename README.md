@@ -22,6 +22,8 @@ Scope: Focus exclusively on the most recent dataset.
 No historization or slowly changing dimension (SCD) tracking is required.
 Documentation: Deliver comprehensive documentation of the data model and ETL process.
 Ensure clarity for both business stakeholders and analytics teams to facilitate self-service BI and reporting.
+Data Desgine architucture(Data warehouse/datalake/datalakehouse/datamesh)
+Approch to design(data medallian architecture)
 ### 2- BI: Analytics & Reporting (Data Analysis)
 ### 🎯 Objective
 Develop SQL-based analytics to deliver detailed insights into:
