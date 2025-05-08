@@ -34,6 +34,8 @@ Sales Trends
 
 We have to specify which approach we want to follow, in our project we choose data modeluian architecture:
 ![image](https://github.com/user-attachments/assets/7a796eb8-82f5-45a5-ae15-17fc7d335020)
+![image](https://github.com/user-attachments/assets/2cb2e5a3-48de-405e-8942-ea3b6da19309)
+
 
 ## What is Datawarehouse?
 A Data Warehouse (DW) is used to store, organize, and analyze large volumes of data from multiple sources. It’s optimized for analytics, reporting, and business intelligence (BI) , not for handling day-to-day operations like a transactional database (OLTP).
