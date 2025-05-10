@@ -33,7 +33,6 @@ Product Performance
 Sales Trends
 
 We have to specify which approach we want to follow, in our project we choose data modeluian architecture:
-![image](https://github.com/user-attachments/assets/7a796eb8-82f5-45a5-ae15-17fc7d335020)
 ![image](https://github.com/user-attachments/assets/2cb2e5a3-48de-405e-8942-ea3b6da19309)
 
 
@@ -121,4 +120,6 @@ SCD 0(no historization: nothing should be changed at all)
 SCD 1(overwrite: update the records with the new information by resources and overwriting the old values like upsert, but you are loosing the history)
 SCD 2(historization: we insert new record for each changes from the sources and we are not delete or overwrite the old data)
 SCD 3
+## 🏗️ Data Architecture
+![image](https://github.com/user-attachments/assets/6a85e105-566d-4c2b-b208-b43b02a3fd72)
 
